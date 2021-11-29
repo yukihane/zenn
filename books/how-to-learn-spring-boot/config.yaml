@@ -1,0 +1,9 @@
+title: "Spring Boot の学び方"
+summary: "Spring Boot の基本と習得方法について説明します。"
+topics: [java, springboot]
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - 01_hajimeni
+  - example2
