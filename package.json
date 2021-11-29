@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/yukihane/zenn.git",
   "author": "yukihane <yukihane.feather@gmail.com>",
-  "license": "CC-BY-SA-4.0"
+  "license": "CC-BY-SA-4.0",
+  "dependencies": {
+    "zenn-cli": "^0.1.99"
+  }
 }
