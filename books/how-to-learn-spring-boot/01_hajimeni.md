@@ -30,4 +30,4 @@ Spring Boot は "Convention over Configuration" を実現するフレームワ�
 
 (リポジトリ URL 記載予定)
 
-[^coc]: https://docs.spring.io/spring-framework/docs/5.3.13/reference/html/overview.html#overview-getting-started
+[^coc]: 日本語では[設定より規約](https://ja.wikipedia.org/wiki/%E8%A8%AD%E5%AE%9A%E3%82%88%E3%82%8A%E8%A6%8F%E7%B4%84)と呼称されます。 https://docs.spring.io/spring-framework/docs/5.3.13/reference/html/overview.html#overview-getting-started
