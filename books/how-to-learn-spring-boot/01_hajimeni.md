@@ -24,6 +24,8 @@ Spring Boot は "Convention over Configuration" を実現するフレームワ�
 - Java 17
 - Spring Boot 2.6.0
 
+環境構築は [Windows10 に Java/Spring Boot 開発環境をセットアップする](https://zenn.dev/yukihane/articles/fb52d049da587c) に記載した手順で行っています。
+
 # ソースコード
 
 (リポジトリ URL 記載予定)
