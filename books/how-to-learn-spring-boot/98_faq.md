@@ -11,6 +11,7 @@ Spring Boot を含む Spring プロジェクトでは比較的最近[^port-to-gr
 
 個人的には、
 
+- Eclipse(Spring Tools 4 for Eclipse) の Gradle サポートは Maven に比べて不完全である[^buildship]
 - Gradle は下位互換性を破壊するバージョンアップがたまにあるので Gradle 自身のバージョンを意識する必要がある
 - 昔から Maven を使い続けているが、Gradle に移行する動機が特に無い
 
@@ -20,3 +21,4 @@ Spring Boot を含む Spring プロジェクトでは比較的最近[^port-to-gr
 ですので、最終的にはどちらも理解して使えるようになる必要はあるかと考えます。
 
 [^port-to-gradle]: Spring Boot は `2020-01` リリースの `2.3.0.M1` より。 ref: [Port the build to Gradle #19608](https://github.com/spring-projects/spring-boot/issues/19608)
+[^buildship]: Eclipse は Buildship という機能で Gradle プロジェクトを扱いますが、現時点では Annotation Processor 設定が Gradle と Eclipse で同期できません(ref: [Annotation Processor configuration from Gradle Eclipse Plugin #329](https://github.com/eclipse/buildship/issues/329))。このため、私が Gradle でプロジェクトを管理する必要が出たときは次のような手段を採用しています: [Gradle で Spring Boot プロジェクトを作成して STS(Eclipse)でインポートする手順](https://yukihane.github.io/blog/202007/26/spring-boot-gradle-eclipse/)
